@@ -1,7 +1,11 @@
+import { motion } from 'framer-motion'
 
 const App = () => {
   return (
-    <div>App</div>
+    <motion.div className= "box"
+    
+    animate={{x: 100}}
+    />
   )
 }
 
